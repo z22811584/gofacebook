@@ -184,7 +184,7 @@ def gofacebook(bac=''):
 #跑程式
 def main():
     bac=""
-    for i in range(2):
+    while "a"=="a":
         gofacebook(bac)
 
 if __name__=='__main__':
