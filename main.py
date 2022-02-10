@@ -8,7 +8,6 @@ import pandas as pd
 bac=""
 rs = requests.Session()
 content_df = [] # post
-feedback_df = [] # reactions
 bac = bac #nextpage
 headers = {'sec-fetch-site': 'same-origin',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
