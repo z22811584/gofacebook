@@ -161,7 +161,9 @@ def gofacebook(bac=''):
 
 
         for i in range(len(articles)):
-            df.loc[len(df)+1]=[ str(articles[i]["postid"]),articles[i]["content"], articles[i]["img"], ",".join(articles[i]["comment"])]
+            df.loc[len(df)+1]=[ str(articles[i]["postid"]),
+                                 articles[i]["content"], articles[i]["img"],
+                                 ",".join(articles[i]["comment"])]
 
         df.to_excel('output.xlsx',
                     header=True,
