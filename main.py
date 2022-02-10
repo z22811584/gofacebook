@@ -4,7 +4,6 @@ import json
 from bs4 import BeautifulSoup
 import time
 import pandas as pd
-import numpy as np
 # 參數設定
 bac=""
 rs = requests.Session()
